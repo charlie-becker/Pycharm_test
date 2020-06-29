@@ -1,0 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+print("hello wolrd.")
+
+l = np.random.random(100)
+k = np.random.random(100)
+
+plt.scatter(l,k)
+plt.show()
+
+
